@@ -65,7 +65,7 @@ h3 {
 @media (max-width: 768px) {
     h3 {
         font-size: 0.7rem;
-        padding: 0.5rem 0.2rem 1rem 0;
+        padding: 0.5rem 0.2rem 0 0;
     }
 }
 
@@ -242,6 +242,18 @@ main {
 
 .perfil {
     margin: 10px 0 25px 0;
+}
+.texto-destacado{
+    color:rgb(82, 40, 89);
+    padding:5px 15px 25px 15px;
+    font-size: 1.8rem;
+    font-family: 'Crimson Text', serif;
+}
+@media (max-width: 768px){
+    .texto-destacado{
+        font-size: 1rem;
+        padding: 10px 5px 10px 10px;
+    }
 }
 
 .datos-personales {
