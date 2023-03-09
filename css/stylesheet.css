@@ -216,7 +216,7 @@ button {
 
 @media (max-width: 768px) {
     button {
-        height: 20px;
+        height: 40px;
     }
 }
 
@@ -232,7 +232,7 @@ input {
 @media (max-width: 768px) {
     input{
         height: 45px;
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
 }
 
