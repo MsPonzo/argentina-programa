@@ -6,7 +6,7 @@ ul {
 
 /* HEADER */
 body {
-    background-color: palevioletred;
+    background-color: #f8fef7;
     margin: 0 !important;
 }
 
@@ -15,7 +15,7 @@ header {
 }
 
 .titulo {
-    background: pink;
+    background: #748d6e;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -44,7 +44,7 @@ h1 {
 h2 {
     font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: palevioletred;
+    color:#2f4a29 ;
 }
 
 
@@ -57,7 +57,7 @@ h2 {
 
 h3 {
     font-size: 1.5rem;
-    color: antiquewhite;
+    color: #748d6e;
     padding: 0.5rem 0.2rem 1rem 0;
 }
 
@@ -72,7 +72,7 @@ h3 {
 
 
 .foto {
-    border: 12px double white;
+    border: 12px double black;
     border-radius: 100px;
     overflow: hidden;
     height: 259px;
@@ -83,7 +83,7 @@ h3 {
 
 @media (max-width: 768px) {
     .foto {
-        border: 6px double white;
+        border: 6px double black;
         margin-left: 25px;
         height: 150px;
         width: 150px;
@@ -108,30 +108,30 @@ img {
 
 .encabezado {
     text-align: center;
-    color: white;
+    color: black;
 }
 
 
 i {
-    color: white;
+    color: black;
     font-size: 1.6rem;
 }
 
 @media (max-width: 768px) {
     i {
-        color: white;
+        color: black;
         font-size: 0.8rem;
     }
 }
 
 a {
     text-decoration: none;
-    color: whitesmoke;
+    color: black;
 }
 
 
 p {
-    color: white;
+    color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -147,7 +147,7 @@ p {
     display:flex;
     justify-content:space-between;
     margin: 0px 0 25px 0;
-    background-color: rgba(138, 73, 95, 0.612);
+    background-color: #748d6e9d;
     height: 100px;
     align-items: center;
 
@@ -190,7 +190,12 @@ p {
     
     transition: 0.5s;
 }
-
+.links-menu ul li a:hover {
+    background-color: #3f4f424d;
+    border-radius: 15px;
+    padding: 10px;
+    transition: 0.2x;
+}
 
 @media (max-width: 768px) {
     .links-menu ul  {
@@ -206,8 +211,8 @@ p {
 }
 
 button {
-    color: white;
-    background-color: pink;
+    color: black;
+    background-color: #748d6e;
     border-radius: 4px;
     border-color: transparent;
     height: 50px;
@@ -222,7 +227,7 @@ button {
 
 input {
     background: transparent;
-    color: white;
+    color: black;
     font-size: 1rem;
     border: none;
     width: 100%;
@@ -237,7 +242,7 @@ input {
 }
 
 input::placeholder {
-    color: white;
+    color: black;
 }
  input:focus-visible {
     outline:none;
@@ -248,7 +253,7 @@ input::placeholder {
     align-items: center;
     justify-content: flex-end;
     border-radius: 4px;
-    border: 2px solid white;
+    border: 2px solid black;
     height: fit-content;
 }
 
@@ -270,7 +275,7 @@ main {
     margin: 10px 0 25px 0;
 }
 .texto-destacado{
-    color:rgb(82, 40, 89);
+    color:#748d6e;
     padding:5px 15px 25px 15px;
     font-size: 1.8rem;
     font-family: 'Crimson Text', serif;
@@ -288,7 +293,7 @@ main {
     height: 100%;
     left: 0;
     border-radius: 5px;
-        border:5px double white;
+        border:5px double black;
 
 }
 @media (max-width: 768px){
@@ -306,13 +311,13 @@ main {
 }
 
 .info-previa h2 {
-    color: white;
+    color: black;
 }
 
 .contacto {
     margin: 0;
     left: 0;
-    background-color:  rgba(138, 73, 95, 0.612);;
+    background-color:  #748d6e8b;;
     top: 0;
     border-radius: 5px;
     margin: 0px;
@@ -362,8 +367,8 @@ main {
 }
 
 .acordeon {
-    background-color: palevioletred;
-    color: #ffffff;
+    background-color:#748d6e;
+    color: black;
     cursor: pointer;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5rem;
@@ -373,17 +378,16 @@ main {
     border: none;
     outline: none;
     transition: 0.4s;
-    height: 100%;
+    height: 100%; 
 
 }
 
-.active,
-.acordeoon:hover {
-    background-color: #a85e7f99;
+button.acordeon:hover {
+    background: #6d7e5795;
 }
 .acordeon::after{
         content: '+'; 
-        color:white;
+        color:black;
         font-size: 1.5rem;
         float: right;
         margin-left: 5px;
@@ -397,9 +401,9 @@ main {
 
 .panel {
     padding: 0 18px;
-    background-color: white;
+    background-color: black;
     max-height: 0;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
     transition: max-height 0.2s ease-out;
 }
 
@@ -418,7 +422,7 @@ main {
 
 /* FOOTER */
 .chevron a i {
-    color: palegoldenrod;
+    color: black;
     font-size: 3rem;
     text-align: center;
 }
